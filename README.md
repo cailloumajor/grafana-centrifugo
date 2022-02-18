@@ -1,12 +1,9 @@
-# Grafana Data Source Plugin Template
+# Centrifugo Data Source plugin for Grafana
 
-[![Build](https://github.com/grafana/grafana-starter-datasource/workflows/CI/badge.svg)](https://github.com/grafana/grafana-starter-datasource/actions?query=workflow%3A%22CI%22)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![Build](https://github.com/cailloumajor/grafana-centrifugo/actions/workflows/ci.yml/badge.svg)](https://github.com/cailloumajor/grafana-centrifugo/actions/workflows/ci.yml)
 
-This template is a starting point for building Grafana Data Source Plugins
-
-## What is Grafana Data Source Plugin?
-
-Grafana supports a wide range of data sources, including Prometheus, MySQL, and even Datadog. There’s a good chance you can already visualize metrics from the systems you have set up. In some cases, though, you already have an in-house metrics solution that you’d like to add to your Grafana dashboards. Grafana Data Source Plugins enables integrating such solutions with Grafana.
+A data source plugin for Grafana to get streaming data from [Centrifugo](https://centrifugal.dev/) subscriptions.
 
 ## Getting started
 
