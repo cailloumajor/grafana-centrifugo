@@ -4,6 +4,7 @@
   "name": "centrifugo-datasource",
   "id": "cailloumajor-centrifugo-datasource",
   "metrics": true,
+  "streaming": true,
   "info": {
     "description": "Centrifugo datasource plugin",
     "author": {
@@ -20,11 +21,11 @@
     "links": [
       {
         "name": "Website",
-        "url": "https://github.com/grafana/grafana-starter-datasource"
+        "url": "https://github.com/cailloumajor/grafana-centrifugo"
       },
       {
         "name": "License",
-        "url": "https://github.com/grafana/grafana-starter-datasource/blob/master/LICENSE"
+        "url": "https://github.com/cailloumajor/grafana-centrifugo/blob/main/LICENSE"
       }
     ],
     "screenshots": [],
