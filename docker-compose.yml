@@ -1,0 +1,13 @@
+# Describes services used in development
+
+version: "3"
+
+services:
+  grafana:
+    image: grafana/grafana-oss
+    environment:
+      - GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS=cailloumajor-centrifugo-datasource
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/var/lib/grafana/plugins
